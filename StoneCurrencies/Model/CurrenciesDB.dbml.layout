@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="CurrenciesDB">
+  <DataContextMoniker Name="/CurrenciesDBDataContext" />
+  <nestedChildShapes>
+    <classShape Id="b4f0dd68-e5df-428f-aaa4-0c64b9853dd9" absoluteBounds="1.75, 1.625, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/CurrenciesDBDataContext/Currency" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ece37fd7-a64f-408b-b7ce-a983aac062b8" absoluteBounds="1.7650000000000001, 2.085, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="2ccf9f02-f569-4d6d-9a74-f460e3d892ae" absoluteBounds="4.25, 1.75, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/CurrenciesDBDataContext/CurrencyRate" />
+      <nestedChildShapes>
+        <elementListCompartment Id="83909fd0-fad9-47a8-b5b6-4f547fc79687" absoluteBounds="4.265, 2.21, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

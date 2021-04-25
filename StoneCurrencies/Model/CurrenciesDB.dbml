@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="StoneCurrencies" Class="CurrenciesDBDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=TOP\SERVER;Initial Catalog=StoneCurrencies;Persist Security Info=True;User ID=sa" SettingsObjectName="StoneCurrencies.Properties.Settings" SettingsPropertyName="StoneCurrenciesConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Currencies" Member="Currencies">
+    <Type Name="Currency">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="EngName" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="CharCode" Type="System.String" DbType="NVarChar(10)" CanBeNull="true" />
+      <Column Name="NumCode" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.CurrencyRates" Member="CurrencyRates">
+    <Type Name="CurrencyRate">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="DateTime" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="NumCode" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Rate" Type="System.Decimal" DbType="Decimal(10,5) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+</Database>
